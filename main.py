@@ -41,7 +41,7 @@ while True:
     cv2.imshow('Webcam Face Detection', frame)
 
     # Tekan 'q' untuk keluar
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('q'): 
         break
 
 # Bersihkan resource
