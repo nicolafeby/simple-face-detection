@@ -14,3 +14,6 @@ Make sure you have the following dependencies installed:
 
 ```bash
 pip install opencv-python
+
+### Run local server
+uvicorn main:app --reload
