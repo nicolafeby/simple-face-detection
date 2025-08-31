@@ -18,4 +18,5 @@ pip install opencv-python
 
 ### Run local server
 ```
-uvicorn main:app --reload
+uvicorn server:app --reload --host 127.0.0.1 --port 8000
+```
