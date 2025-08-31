@@ -97,7 +97,7 @@ async def detect_faces_eyes(file: UploadFile = File(...), return_image: bool = T
             "image": encode_image_to_base64(img) if return_image else None,
         }
 
-        status_code = 200 if len(faces) > 0 else 404
+        status_code = 200 if len(faces) > 0 else 400
         message = "Detection success" if len(faces) > 0 else "No face detected"
 
         return JSONResponse(
