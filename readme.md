@@ -16,7 +16,7 @@ Make sure you have the following dependencies installed:
 pip install opencv-python
 ```
 
-### Run local server
+Run local server
 ```
 uvicorn server:app --reload --host 127.0.0.1 --port 8000
 ```
